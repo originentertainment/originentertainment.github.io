@@ -135,6 +135,6 @@ span {
 #OriginLogo {
   position: absolute !important;
   left: 50%;
-  top: 5px;
+  top: 10px;
   transform: translateX(-50%);
 }
