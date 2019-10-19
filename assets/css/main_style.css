@@ -62,6 +62,7 @@ a:-webkit-any-link {
   padding: 75px 0;
   text-align: center;
   text-shadow: 3px 2px 10px rgba(0, 0, 0, 0.5);
+  background-color: rgb(32, 43, 49);
 }
 .module_container {
   width: 100%;
