@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  border: 0;
+  width: 100%;
+  height: 2100px;
+  box-sizing: border-box;
+}
+img,
+li,
+ul,
+span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: top;
+}
+li {
+  margin-top: 25px !important;
+}
+ol,
+ul {
+  list-style: none;
+}
+span {
+  color: #fff;
+  font-weight: 750;
+  text-align: center;
+}
+.main_header {
+  width: 100% !important;
+  height: 75px;
+  background-color: rgba(40, 40, 40, 0.75);
+  position: fixed;
+  z-index: 100;
+}
+.main_header {
+  position: fixed;
+  height: 75px;
+  background-color: rgba(54, 54, 54, 0.5);
+  margin: 0 auto;
+}
+.nav-link {
+  height: 90px;
+  overflow: hidden;
+  outline: none;
+  display: inline-block;
+  z-index: 100;
+  margin-top: 13px;
+  position: relative;
+}
+.nav-link #LBNLogo {
+  width: 100%;
+}
+#LBNLogo {
+  overflow: hidden;
+  z-index: 10;
+  outline: none;
+  display: inline-block;
+}
+#Menus {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 0;
+  top: 0;
+  left: 10%;
+  z-index: 5;
+}
+#RightMenu {
+  width: 11%;
+  padding: 0;
+  margin: 0;
+  right: 30%;
+  top: 7px;
+  height: 110px;
+  overflow: hidden;
+  position: absolute;
+}
+#LeftMenu {
+  text-align: right;
+  width: 11%;
+  padding: 0;
+  margin: 0;
+  left: 30%;
+  top: 7px;
+  height: 110px;
+  position: absolute;
+}
+.aside-menu li {
+  padding: 0;
+  outline: none !important;
+  transition: 300ms;
+  height: 32px;
+  float: none;
+  overflow: hidden;
+  z-index: 10;
+}
+.aside-menu li a {
+  font-size: 13px;
+  display: inline-block;
+  text-transform: uppercase;
+  line-height: 44px;
+  padding: 0;
+  background: 0 0 !important;
+  outline: none !important;
+  background: linear-gradient(rgba(83, 117, 162, 0), rgba(78, 105, 163, 0));
+  padding: 7px;
+  width: auto;
+  text-align: center;
+  line-height: initial;
+  position: relative;
+  font-weight: 400;
+  padding: 7px 10px;
+}
+#LeftMenu li .title {
+  float: right;
+  position: relative;
+}
+#LeftMenu li .title .underline {
+  background: rgba(255, 255, 255, 0.25);
+  transition: 300ms;
+  height: 1px;
+  width: 0;
+  right: 50%;
+  animation-name: poweredline;
+  position: absolute;
+}
+.menu-content {
+  color: #fff;
+  margin: 0 auto;
+  position: relative;
+}
+#LowboundLogo {
+  position: absolute !important;
+  left: 50%;
+  top: 5px;
+  transform: translateX(-50%);
+}
