@@ -48,6 +48,7 @@ a:-webkit-any-link {
   color: #fff !important;
   position: relative;
   z-index: 12;
+  background-color: rgb(32, 43, 49);
 }
 .main_content_true_title {
   width: 100%;
