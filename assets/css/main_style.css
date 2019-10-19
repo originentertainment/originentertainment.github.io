@@ -31,7 +31,7 @@ a:-webkit-any-link {
 .main_header {
   width: 100% !important;
   height: 75px;
-  background-color: rgba(40, 40, 40, 0.75);
+  background-color: rgba(32, 43, 49, 0.75);
   position: fixed;
   z-index: 100;
 }
